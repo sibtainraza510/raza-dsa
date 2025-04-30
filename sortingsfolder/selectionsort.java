@@ -18,6 +18,7 @@ public class selectionsort {
         }
     }
 
+
         public static int maxindex(int[] arr ,int lastindex){
             int  max = 0;
             for(int i=0;i<=lastindex;i++){
@@ -36,6 +37,4 @@ public class selectionsort {
              arr[lastindex] = temp;
         }
 
-    
-    
 }
