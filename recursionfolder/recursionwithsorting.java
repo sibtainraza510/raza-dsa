@@ -39,7 +39,7 @@ public class recursionwithsorting{
                 if (r == 0) {
                     return;
                 }
-                if (c < r) {
+                if (r>c) {
                     if (arr[c] > arr[max]) {
                         recursionselectionsorting(arr, r, c+1, c);
                     } else {
